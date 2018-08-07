@@ -2,6 +2,10 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.top_mnu{
+		display: none;
+	}
+	
 
 }
 
@@ -12,13 +16,52 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.top_addr{
+		padding-left: 49px;
+		
+	}
+	.ta_right{
+		padding-left: 27px;
+	}
 }
+
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	header h1 {
+		background: rgba(0, 0, 0, 0.67);
+		padding: 10px;
+		border-radius: 20px;
+		margin-top: 40px;
+	}
+	.logo{
+		padding-top: 10px;
+	}
+	.top_addr{
+		width: 233px;
+		margin: 0 auto;
+	}
+	.ta_right{
+		width: 262px;
+		margin-top: 150px; 
+		text-align: center;
+	}
 
+	.mc_item_wrap{
+		margin: 10px auto;
+
+	}
+
+	.mc_item_wrap.active ul{
+		position: absolute;
+		left: 0;	
+	}
+	
+	.mc_item_wrap.active ul li {
+		display: block;
+	}
 }
+
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
@@ -40,7 +83,44 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.tagline h2::before{
+		content: "";
+		position: absolute;
+		top: 10px;
+		width: 50px;
+		height: 20px;
+		background-image: url(../img/h2_b_ico.png);
+		margin-left: -68px;
+	}
+	.tagline h2::after{
+		content: "";
+		position: absolute;
+		top: 10px;
+		width: 50px;
+		height: 20px;
+		background-image: url(../img/h2_b_ico.png);
+		background-position: -50px 0;
+		margin-left: 20px;
+	}
+	.s_black h2::before{
+		content: "";
+		position: absolute;
+		top: 18px;
+		width: 50px;
+		height: 20px;
+		background-image: url(../img/h2_ico.png);
+		margin-left: -68px;
+	}
+	.s_black h2::after{
+		content: "";
+		position: absolute;
+		top: 18px;
+		width: 50px;
+		height: 20px;
+		background-image: url(../img/h2_ico.png);
+		background-position: -50px 0;
+		margin-left: 20px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -48,7 +128,18 @@
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	.mc_item_wrap:nth-child(1){
+		margin-left: 0;
+	}
 
+}
+
+
+@media (min-width: 568px) and (max-width:760px){
+	.ta_right{
+		position: relative;
+		top: -55px;
+	}
 }

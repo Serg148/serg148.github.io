@@ -29,18 +29,7 @@ body {
 	min-width: 320px;
 	position: relative;
 }
-.hidden {
-	display: none;
-}
-.carousel img {
-	width: 100%;
-	height: auto;
-}
-.parallax {
-	background-attachment: fixed;
-	background-position: 50% 0;
-	position: relative;
-}
+
 header { 
 	background-image: url(../img/bg_header.jpg);
 	min-height: 644px;
@@ -99,8 +88,9 @@ header h1{
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.55);
 	color: #ffffff;
 	font-size: 43px;
-	line-height: 26px;
+	line-height: 43px;
 	margin-top: 79px;	
+	
 }
 .button{
 	display: inline-block;
@@ -143,12 +133,14 @@ header .button{
 	bottom: 35px;
 }
 .top_mnu{
+	display: block;
 	height: 70px;
 	background-color: #242424;
 	border: 1px solid rgba(255, 255, 255, 0.18);
 	font-family:"BebasRegular";
 	text-transform: uppercase;
 }
+
 .top_mnu ul{
 	margin: 0;
 	padding: 0;
@@ -164,6 +156,10 @@ header .button{
 	background-image: url(../img/nav_ico_set.png);
 	background-repeat: no-repeat;
 	background-position: 20px 20px;
+}
+.nav{
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .top_mnu li.active,
@@ -236,25 +232,7 @@ header .button{
 section h2{
 	position: relative;
 }
-.s_black h2::before{
-	content: "";
-	position: absolute;
-	top: 18px;
-	width: 50px;
-	height: 20px;
-	background-image: url(../img/h2_ico.png);
-	margin-left: -68px;
-}
-.s_black h2::after{
-	content: "";
-	position: absolute;
-	top: 18px;
-	width: 50px;
-	height: 20px;
-	background-image: url(../img/h2_ico.png);
-	background-position: -50px 0;
-	margin-left: 20px;
-}
+
 .mc_wrap{
 	text-align: center;
 	padding: 0;
@@ -262,13 +240,13 @@ section h2{
 }
 .mc_item_wrap{
 	margin-left: 30px;
+	margin-top: 10px;
 	width: 160px;
 	display: inline-block;
 	text-align: center;
 }
-.mc_item_wrap:nth-child(1){
-	margin-left: 0;
-}
+
+
 .mc_item_wrap a h4{
 	color: #fff;
 	font-family: "BebasBold";
@@ -376,30 +354,12 @@ section h2{
 	font-family: "BebasRegular";
 	font-size: 40px;
 	font-weight: bold;
-	line-height: 26px;
+	line-height: 40px;
 	position: relative;
 	margin-bottom: 27px;
 }
 
-.tagline h2::before{
-	content: "";
-	position: absolute;
-	top: 4px;
-	width: 50px;
-	height: 20px;
-	background-image: url(../img/h2_b_ico.png);
-	margin-left: -68px;
-}
-.tagline h2::after{
-	content: "";
-	position: absolute;
-	top: 4px;
-	width: 50px;
-	height: 20px;
-	background-image: url(../img/h2_b_ico.png);
-	background-position: -50px 0;
-	margin-left: 20px;
-}
+
 .tagline span{
  	display: inline-block;
 	color: #050505;
@@ -438,7 +398,7 @@ section h2{
 	font-size: 36px;
 	font-weight: bold;
 	text-transform: uppercase;
-	line-height: 26px;
+	line-height: 36px;
 }
 .about_us_buttton{
 	margin-top: 15px;
@@ -482,5 +442,8 @@ footer a{
 }
 .about_us_img{
 	position: relative;
-	bottom: -20px;
+	bottom: -13px;
+}
+.about_us_img img{
+	width: 100%
 }
