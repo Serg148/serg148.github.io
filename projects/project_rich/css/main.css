@@ -851,33 +851,6 @@ body{
 
 
 
-/* Media_Queries*/
-
-@media all and (max-width: 768px) {
-    #main{
-    	min-height: 100%
-    }
-    .main_tagline_lable, .main_nav {
-        display: none;
-    }
-    .main_tagline_group{
-	position: relative;
-	bottom: 125px;
-	}
-}
-
-@media all and (max-width: 600px) {
-	#main{
-    	min-height: 100%
-    }
-    .main_tagline_lable, .main_nav {
-        display: none;
-    }
-    .main_tagline_group{
-	position: relative;
-	bottom: 0px;
-	}
-}
 
 
 
