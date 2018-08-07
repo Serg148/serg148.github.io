@@ -60,6 +60,18 @@
 	.mc_item_wrap.active ul li {
 		display: block;
 	}
+	.about_us_header{
+		text-align: center;
+	}
+	.about_us_headline{
+		display: inline-block;
+		width: 240px;
+		text-align: center;
+	}
+	.about_us_buttton{
+		float: none;
+	}
+
 }
 
 
