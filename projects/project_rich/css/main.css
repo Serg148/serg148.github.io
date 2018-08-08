@@ -4,19 +4,19 @@ html, body{
 }
 @font-face {
 	font-family: "FlangeBQ"; 
-	src: url("fonts/FlangeBQ.otf"); 
+	src: url("../fonts/FlangeBQ.otf"); 
 	font-style: normal; 
 	font-weight: normal; 
 }
 @font-face {
 	font-family: "MyriadPro"; 
-	src: url("fonts/MyriadPro.otf"); 
+	src: url("../fonts/MyriadPro.otf"); 
 	font-style: normal; 
 	font-weight: normal; 
 }
 @font-face {
 	font-family: "BrutalTypeLight"; 
-	src: url(fonts/BrutalTypeLight.otf); 
+	src: url(../fonts/BrutalTypeLight.otf); 
 	font-style: normal; 
 	font-weight: normal; 
 }
@@ -34,7 +34,7 @@ body{
 	line-height: 48px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
-	background: url(img/sprite.png);
+	background: url(../img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -307px 0px;
 	display: -webkit-flex;
@@ -57,7 +57,7 @@ body{
 	left:0;
 	height: 319px;
 	width:100%;
-	background:url('img/bg_section_2.png');
+	background:url('../img/img_bg/bg_section_2.png');
 	z-index: 10;
 	text-align: center;
 	padding-top: 110px;
@@ -73,7 +73,7 @@ body{
 	width: 67px;
 	height: 67px;
 	box-shadow: 1px 7px 11px 5px rgba(0, 0, 0, 0.21);
-	background: url(img/up-arrow--1--------28.png) no-repeat #d8272d;
+	background: url(../img/up-arrow--1--------28.png) no-repeat #d8272d;
 	background-position: center;
 	border-radius: 50%;
 }
@@ -109,9 +109,9 @@ body{
 #main{
 	height: 840px;
 	background:
-	url(img/main_bg_around_1.png) 110px -95px no-repeat,
-	url(img/main_bg_around_2.png) 515px 270px no-repeat,
-	url(img/bg_section_main.png);
+	url(../img/img_bg/main_bg_around_1.png) 110px -95px no-repeat,
+	url(../img/img_bg/main_bg_around_2.png) 515px 270px no-repeat,
+	url(../img/img_bg/bg_section_main.jpg);
 	position: relative;
 }
 /*========== START MAIN HEADER ===========*/	
@@ -126,7 +126,7 @@ body{
 	display: block;
 	padding-left: 60px;
 	color: #fff;
-	background-image: url(img/sprite.png);
+	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -312px -137px;
 	font-family: "BrutalType";
@@ -253,13 +253,13 @@ body{
 	position: relative;
 	padding-bottom: 319px;
 	background: 
-	 url(img/img_bg/bg_about_1.png) -17% 0 no-repeat,
-	 url(img/img_bg/bg_about_2.png) 116% 0 no-repeat;
+	 url(../img/img_bg/bg_about_1.png) -17% 0 no-repeat,
+	 url(../img/img_bg/bg_about_2.png) 116% 0 no-repeat;
 }
 #about_the_brand .section_header{
 	background:
-	 url(img/img_bg/bg_rich.png) -22% 10% no-repeat,
-	 url(img/bg_section_1.png) center;	
+	 url(../img/img_bg/bg_rich.png) -22% 10% no-repeat,
+	 url(../img/img_bg/bg_section_1.png) center;	
 }
 
 .about_the_brand_imgbox{
@@ -277,16 +277,16 @@ body{
 
 #our_juice{
 	display: block;
-	background: url(img/img_bg/bg_our_juice_2.png) 99% 76% no-repeat;
+	background: url(../img/img_bg/bg_our_juice_2.png) 99% 76% no-repeat;
 	background-color: #d8272d;
 	position: relative;
 	padding-bottom: 319px
 }
 #our_juice .section_header{
 	background: 
-	url(img/img_bg/bg_rich.png) 125% 100% no-repeat,
-	url(img/img_bg/bg_our_juice_1.png) -24% -1141% no-repeat,
-	url(img/bg_section_2.png) center;
+	url(../img/img_bg/bg_rich.png) 125% 100% no-repeat,
+	url(../img/img_bg/bg_our_juice_1.png) -24% -1141% no-repeat,
+	url(../img/img_bg/bg_section_2.png) center;
 	
 }
 
@@ -305,7 +305,7 @@ body{
 	box-shadow: 1px 4px 15px 6px rgba(0, 0, 0, 0.21);
 	background-color: #4e0707;
 	opacity: 0.6;
-	background-image: url(img/sprite_slidercontol.png);
+	background-image: url(../img/sprite_slidercontol.png);
 	background-repeat: no-repeat;
 	border-radius: 50%;
 
@@ -478,14 +478,14 @@ body{
 	display: block;
 	width: 100%;
 	background-color:#4e0707;
-	background: url(img/bg_krasnii-pesok.png) 113% 20% no-repeat;
+	background: url(../img/img_bg/bg_krasnii-pesok.png) 113% 20% no-repeat;
 	position: relative;
 	padding-bottom: 319px
 }
 #more_than_juice .section_header{
 	background: 
-		url(img/img_bg/bg_rich.png) -33% -5% no-repeat,
-		url(img/bg_section_3.png) center;
+		url(../img/img_bg/bg_rich.png) -33% -5% no-repeat,
+		url(../img/img_bg/bg_section_3.png) center;
 
 }
 	
@@ -506,8 +506,8 @@ body{
 	display: block;
 	width: 100%;
 	background:		
-		url(img/img_bg/bg_rich.png) -50% 83% no-repeat,
-		url(img/img_bg/bg_contacts_2.png) 155% 87% no-repeat;
+		url(..img/img_bg/bg_rich.png) -50% 83% no-repeat,
+		url(..img/img_bg/bg_contacts_2.png) 155% 87% no-repeat;
 	background-color: #d8272d;
 	position: relative;
 	padding-bottom: 187px;
@@ -518,9 +518,9 @@ body{
 
 #contacts .section_header{
 	background:
-		url(img/img_bg/bg_contacts_1.png) -38% 191% no-repeat,
-		url(img/img_bg/bg_rich.png) 116% 26% no-repeat,
-		url(img/bg_section_2.png) center;
+		url(../img/img_bg/bg_contacts_1.png) -38% 191% no-repeat,
+		url(../img/img_bg/bg_rich.png) 116% 26% no-repeat,
+		url(../img/img_bg/bg_section_2.png) center;
 	
 }
 .headline_form{
@@ -755,19 +755,19 @@ body{
 	border-radius: 50%;
 }
 #contacts_box_city_ico{
-	background:url(img/sprite.png);
+	background:url(../img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -151px -149px;
 }
 
 #contacts_box_phone_ico{
-	background:url(img/sprite.png);
+	background:url(../img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -202px -153px;
 }
 
 #contacts_box_soc_ico{
-	background:url(img/sprite.png);
+	background:url(../img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: -267px -153px;
 }
@@ -804,7 +804,7 @@ body{
 
 #footer{
 	display: block;
-	background: url(img/bg_section_3.png);
+	background: url(../img/img_bg/bg_section_3.png);
 	background-position: center -60px;
 	text-align: center;
 	overflow-x: hidden;
