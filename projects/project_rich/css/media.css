@@ -54,7 +54,10 @@
 	.span_section_body{
 		display: none;
 	}
-
+	
+	.inp_t_form_backcall{
+		width: 110px;
+	}
 }
 
 /* Custom, iPhone Retina */
