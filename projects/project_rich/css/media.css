@@ -78,12 +78,12 @@
 	}
 	#our_juice .section_header{
 		background: 
-		url(../img/img_bg/bg_rich.png) 125% 100% no-repeat,
+		url(../img/img_bg/bg_rich.png) 125% 37% no-repeat,
 		url(../img/img_bg/bg_our_juice_1.png) -24% -1141% no-repeat,
 		url(../img/img_bg/bg_section_2.png) center;
 	}
 	#more_than_juice .section_header{
-	background: 
+		background: 
 		url(../img/img_bg/bg_rich.png) -33% -5% no-repeat,
 		url(../img/img_bg/bg_section_3.png) center;
 	}
@@ -94,14 +94,13 @@
 		background:		
 		url(..img/img_bg/bg_rich.png) -50% 83% no-repeat,
 		url(../img/img_bg/bg_contacts_2.png) 155% 87% no-repeat;
+		background-color: #d8272d;
 	}
 	#contacts .section_header{
 		background:
 		url(../img/img_bg/bg_contacts_1.png) -38% 191% no-repeat,
 		url(../img/img_bg/bg_rich.png) 116% 26% no-repeat,
 		url(../img/img_bg/bg_section_2.png) center;
-	
-}
 	}
 
 }
