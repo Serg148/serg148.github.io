@@ -41,6 +41,20 @@
 		display: none;
 	}
 
+	/* section contacts */
+	.form_backcall{
+		padding-top: 20px;
+		height: auto;
+		border-top: 1px solid #fff;
+		border-radius: 0;
+	}
+	.label_inp{
+		text-align: center;
+	}
+	.span_section_body{
+		display: none;
+	}
+
 }
 
 /* Custom, iPhone Retina */
