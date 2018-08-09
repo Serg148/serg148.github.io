@@ -37,6 +37,9 @@
 		position: relative;
 		bottom: 0px;
 	}
+	.main_img{
+		display: none;
+	}
 
 }
 
@@ -65,6 +68,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
 	#main{
 		background:
 		url(../img/img_bg/main_bg_around_1.png) 110px -95px no-repeat,
@@ -102,10 +110,5 @@
 		url(../img/img_bg/bg_rich.png) 116% 26% no-repeat,
 		url(../img/img_bg/bg_section_2.png) center;
 	}
-
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
 
 }
