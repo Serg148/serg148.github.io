@@ -13,14 +13,14 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	#main{
-    	min-height: 100%
-    }
-    .main_tagline_lable, .main_nav {
-        display: none;
-    }
-    .main_tagline_group{
-	position: relative;
-	bottom: 125px;
+		min-height: 100%
+	}
+	.main_tagline_lable, .main_nav {
+		display: none;
+	}
+	.main_tagline_group{
+		position: relative;
+		bottom: 125px;
 	}
 
 }
@@ -28,14 +28,14 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	#main{
-    	min-height: 100%
-    }
-    .main_tagline_lable, .main_nav {
-        display: none;
-    }
-    .main_tagline_group{
-	position: relative;
-	bottom: 0px;
+		min-height: 100%
+	}
+	.main_tagline_lable, .main_nav {
+		display: none;
+	}
+	.main_tagline_group{
+		position: relative;
+		bottom: 0px;
 	}
 
 }
@@ -65,10 +65,48 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	#main{
+		background:
+		url(../img/img_bg/main_bg_around_1.png) 110px -95px no-repeat,
+		url(../img/img_bg/main_bg_around_2.png) 515px 270px no-repeat,
+		url(../img/img_bg/bg_section_main.jpg);
+	}
+	#about_the_brand .section_header{
+		background:
+		url(../img/img_bg/bg_rich.png) -22% 10% no-repeat,
+		url(../img/img_bg/bg_section_1.png) center;
+	}
+	#our_juice .section_header{
+		background: 
+		url(../img/img_bg/bg_rich.png) 125% 100% no-repeat,
+		url(../img/img_bg/bg_our_juice_1.png) -24% -1141% no-repeat,
+		url(../img/img_bg/bg_section_2.png) center;
+	}
+	#more_than_juice .section_header{
+	background: 
+		url(../img/img_bg/bg_rich.png) -33% -5% no-repeat,
+		url(../img/img_bg/bg_section_3.png) center;
+	}
+	#more_than_juice{
+		background: url(../img/img_bg/bg_krasnii-pesok.png) 113% 20% no-repeat;
+	}
+	#contacts{
+		background:		
+		url(..img/img_bg/bg_rich.png) -50% 83% no-repeat,
+		url(../img/img_bg/bg_contacts_2.png) 155% 87% no-repeat;
+	}
+	#contacts .section_header{
+		background:
+		url(../img/img_bg/bg_contacts_1.png) -38% 191% no-repeat,
+		url(../img/img_bg/bg_rich.png) 116% 26% no-repeat,
+		url(../img/img_bg/bg_section_2.png) center;
+	
+}
+	}
 
 }
 
- /* Large Devices, Wide Screens */
+/* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 
 }

@@ -105,14 +105,13 @@ body{
 
 
 
-/*========== START MAIN ===========*/	
+/*========== START MAIN ===========*/
 #main{
 	height: 840px;
-	background:
-	url(../img/img_bg/main_bg_around_1.png) 110px -95px no-repeat,
-	url(../img/img_bg/main_bg_around_2.png) 515px 270px no-repeat,
-	url(../img/img_bg/bg_section_main.jpg);
+	background:	url(../img/img_bg/bg_section_main.jpg);
+		
 	position: relative;
+	
 }
 /*========== START MAIN HEADER ===========*/	
 
@@ -257,9 +256,7 @@ body{
 	 url(../img/img_bg/bg_about_2.png) 116% 0 no-repeat;
 }
 #about_the_brand .section_header{
-	background:
-	 url(../img/img_bg/bg_rich.png) -22% 10% no-repeat,
-	 url(../img/img_bg/bg_section_1.png) center;	
+	background: url(../img/img_bg/bg_section_1.png) center;
 }
 
 .about_the_brand_imgbox{
@@ -283,13 +280,9 @@ body{
 	padding-bottom: 319px
 }
 #our_juice .section_header{
-	background: 
-	url(../img/img_bg/bg_rich.png) 125% 100% no-repeat,
-	url(../img/img_bg/bg_our_juice_1.png) -24% -1141% no-repeat,
-	url(../img/img_bg/bg_section_2.png) center;
+	background: url(../img/img_bg/bg_section_2.png) center;
 	
 }
-
 .slider_control_list{
 	list-style-type: none;
 	margin: 0;
@@ -478,15 +471,11 @@ body{
 	display: block;
 	width: 100%;
 	background-color:#4e0707;
-	background: url(../img/img_bg/bg_krasnii-pesok.png) 113% 20% no-repeat;
 	position: relative;
 	padding-bottom: 319px
 }
 #more_than_juice .section_header{
-	background: 
-		url(../img/img_bg/bg_rich.png) -33% -5% no-repeat,
-		url(../img/img_bg/bg_section_3.png) center;
-
+	background: url(../img/img_bg/bg_section_3.png) center;
 }
 	
 .beverageantigendids_list{
@@ -505,9 +494,6 @@ body{
 #contacts{
 	display: block;
 	width: 100%;
-	background:		
-		url(..img/img_bg/bg_rich.png) -50% 83% no-repeat,
-		url(..img/img_bg/bg_contacts_2.png) 155% 87% no-repeat;
 	background-color: #d8272d;
 	position: relative;
 	padding-bottom: 187px;
@@ -518,10 +504,7 @@ body{
 
 #contacts .section_header{
 	background:
-		url(../img/img_bg/bg_contacts_1.png) -38% 191% no-repeat,
-		url(../img/img_bg/bg_rich.png) 116% 26% no-repeat,
 		url(../img/img_bg/bg_section_2.png) center;
-	
 }
 .headline_form{
 	color: #ffffff;
