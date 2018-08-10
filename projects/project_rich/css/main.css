@@ -2,24 +2,7 @@ html, body{
 	height: 100%;
 	background-color: #4e0707;
 }
-@font-face {
-	font-family: "FlangeBQ"; 
-	src: url("../fonts/FlangeBQ.otf"); 
-	font-style: normal; 
-	font-weight: normal; 
-}
-@font-face {
-	font-family: "MyriadPro"; 
-	src: url("../fonts/MyriadPro.otf"); 
-	font-style: normal; 
-	font-weight: normal; 
-}
-@font-face {
-	font-family: "BrutalTypeLight"; 
-	src: url(../fonts/BrutalTypeLight.otf); 
-	font-style: normal; 
-	font-weight: normal; 
-}
+
 body{
 	font-family:"MyriadPro";
 	color: #fff;
