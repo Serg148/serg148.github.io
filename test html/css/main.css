@@ -103,7 +103,7 @@ body{
 }
 #form__taking_a_contact{
 	display: block;
-	width: 370px;
+	max-width: 370px;
 	background-color: #dcdfe0;
 	box-shadow: 1px 1px 13px rgba(0, 0, 0, 0.3);
 	padding: 30px;
@@ -215,6 +215,9 @@ body{
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+.features__img{
+	width: 100%;
 }
 /*finish features*/
 
@@ -331,7 +334,58 @@ body{
 	background: url(../img/bg_faqs.jpg);
 	padding: 120px 0;
 }
+/*test start*/
 
+.boxss{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+
+	height: 500px;
+}
+
+.boxss_item{
+	display: block;
+	color: #fff;
+}
+
+
+.faqs__item__headline{
+	max-width: 370px;
+	height: 75px;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 75px;
+	background-color: #ff4538;
+	box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+	padding: 0 10px;
+	cursor: pointer;
+	background-image: url(../img/sprite_ark.png);
+	background-position:300px 50%;
+	background-repeat: no-repeat; 
+}
+.faqs__item__body{
+	background-color: #ff4538;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	padding: 0 10px;
+}
+.faqs__item__headline[aria-expanded=true] {
+	background-position:-100px 50%;
+	background-repeat: no-repeat; 
+}
+
+/*test finish*/
+
+
+
+/*
 #accordion{
 	background-color: green;
 	height: 500px;
@@ -342,7 +396,7 @@ body{
 	margin: 20px;
 	background-color: red;	
 }
-
+*/
 
 
 .how_its_work{
