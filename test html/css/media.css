@@ -8,7 +8,7 @@
 		background-repeat: no-repeat; 
 	}
 	.faqs__item__headline[aria-expanded=true]{
-		background-position: 300px 50%;
+		background-position: 250px 50%;
 		background-repeat: no-repeat;
 	}
 	.navbar-nav{
