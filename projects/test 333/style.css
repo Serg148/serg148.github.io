@@ -1,7 +1,7 @@
 html body{
 	height: 100%;
 	background-color: green;
-	min-width: 200px,
+	min-width: 200px;
 	max-width:1000px;
 	text-align: center;
 	
