@@ -1,0 +1,189 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.faqs__item__headline{
+		background-position: -150px 50%;;
+		background-repeat: no-repeat; 
+	}
+	.faqs__item__headline[aria-expanded=true]{
+		background-position: 250px 50%;
+		background-repeat: no-repeat;
+	}
+	.navbar-nav{
+		display: none;
+	}
+	.main_header {
+			display: block;
+			height: 150px;
+			text-align: center;
+			margin-top: 60px;
+		}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+		.faqs__item__headline{
+			background-position: -118px 50%;;
+			background-repeat: no-repeat; 
+		}
+		.faqs__item__headline[aria-expanded=true]{
+			background-position: 282px 50%;
+			background-repeat: no-repeat;
+		}
+		.section_headline_caption{
+			max-width: 700px;
+		}
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		.main_header {
+			display: block;
+			height: 150px;
+			text-align: center;
+			margin-top: 60px;
+		}
+
+		.logo {
+			color: #ffffff;
+			font-size: 53px;
+			line-height: 53px;
+			text-transform: uppercase;
+			font-weight: 900;
+		}
+		..main_headline_caption {
+			font-size: 34px;
+			line-height: 56px;
+		}
+		.main_headline {
+			font-size: 50px;
+			font-weight: 300;
+			line-height: 89px;
+		}
+		.boxss_item {
+			width: 370px;
+		}
+		.faqs {
+			height: 800px;
+			padding: 10px 0;
+		}
+		.faqs .section_headline{
+			margin-bottom: 10px;
+			color: #fff;	
+		}
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 480px) {
+		.main_header{
+			padding: 0;
+			height: 80px;	
+		}
+		.main_headline {
+			font-size: 34px;
+			font-weight: 700;
+			line-height: 65px;
+		}
+		.main_headline_caption {
+			font-size: 20px;
+			line-height: 25px;
+			font-weight: 700;
+		}
+		.logo{
+			width: 100%;
+			font-size: 30px;
+			text-align: center;
+		}
+		#form__taking_a_contact{
+			width: 290px;
+		}
+		.faqs {
+			padding-top: 30px;
+		}
+		.boxss_item {
+			width: 310px;
+		}
+		.faqs__item__headline{
+			background-position:-164px 50%;;
+			background-repeat: no-repeat; 
+		}
+		.faqs__item__headline[aria-expanded=true]{
+			background-position: 236px 50%;
+			background-repeat: no-repeat;
+		}
+		
+		.our_partners__link {
+			margin: 20px 0;
+		}
+		.footer__box_location_link {
+			display: inline-block;
+			width: 318px;
+			text-align: center;
+			margin: 60px 0;
+		}
+		.footer_link_map {
+			display: inline-block;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 40px;
+		}
+		.footer_link_phone {
+			display: inline-block;
+			font-size: 18px;
+			font-weight: 400;
+		}
+		.section_headline_caption{
+			width: 310px;	
+		}
+		/* Custom, iPhone Retina */
+		@media only screen and (max-width : 320px) {
+
+		}
+
+
+		/*==========  Mobile First Method  ==========*/
+
+		/* Custom, iPhone Retina */
+		@media only screen and (min-width : 320px) {
+
+		}
+
+		/* Extra Small Devices, Phones */
+		@media only screen and (min-width : 480px) {
+
+		}
+
+		/* Small Devices, Tablets */
+		@media only screen and (min-width : 768px) {
+
+
+		}
+
+		/* Medium Devices, Desktops */
+		@media only screen and (min-width : 992px) {
+
+		}
+
+		/* Large Devices, Wide Screens */
+		@media only screen and (min-width : 1200px) {
+
+			.faqs__item__headline{
+				background-position:-100px 50%;
+				background-repeat: no-repeat; 
+			}
+			.faqs__item__headline[aria-expanded=true]{
+				background-position:300px 50%;
+				background-repeat: no-repeat;
+			}
+		}
+
+
+
+
+
+		@media (min-width: 550px) and (max-width:760px){
+
+		}
