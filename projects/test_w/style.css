@@ -83,8 +83,7 @@ body{
 .phone_box{
 	display: block;
 	width: 140px;
-	height: 40px;`
-	background-color: violet;
+	height: 40px;
 	text-align: right;
 	margin-left:105px;
 }
@@ -256,7 +255,7 @@ body{
 	padding-left: 100px;
 	padding-top: 38px;
 	box-sizing: border-box;
-	margin: 0px;
+	margin: 3px;
 }
 .facts__item__ico{
 	width: 70px;
@@ -358,7 +357,7 @@ body{
 	position: relative;
 }
 .situation_img__img{
-
+	width: 100%;
 }
 .situation_img__lable{
 	width: 306px;
@@ -430,40 +429,3 @@ body{
 
 /*finish situation*/
 
-/*MQ*/
-/* Desktop First Method  */
-@media only screen and (max-width : 1400px) {
-	.headline_box{
-		width: 968px;	
-	}
-}
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-	.headline_box{
-		width: 968px;	
-	}
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	
-}
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	
-}
-
-}
-
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-
-}
