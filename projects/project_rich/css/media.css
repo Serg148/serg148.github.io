@@ -22,6 +22,28 @@
 		position: relative;
 		bottom: 125px;
 	}
+	/*Start test 14.08.18*/
+
+	.basket_box{
+			display: none;
+		}
+
+		.logo{
+			width: 100%;
+			text-align: center;
+			margin-top: 70px;
+		}
+		.logo img{
+			display: inline-block;
+			width: 75%;
+		} 
+		.headline_section{
+			font-size: 35px;
+			line-height: 35px;
+		}
+		
+
+	/*Finish test 14.08.18*/
 
 }
 
@@ -37,10 +59,6 @@
 		position: relative;
 		bottom: 0px;
 	}
-	/*.main_img{
-		display: none;
-		}*/
-
 		/* section contacts */
 		.form_backcall{
 			padding-top: 20px;
@@ -90,26 +108,26 @@
 			left: 30%;
 		}
 		.section_body{
-		padding-top: 5px;
-	}
-	.headline_txt, .slider_control_direction_headline{
-		font-size: 24px;
-		line-height: 30px;
-	}
-	.about_the_brand_txt,{
-		margin-bottom: 20px;
-	}
-	.slider_control_direction_txt{
-		font-size: 16px;
-		line-height: 1.5;
-	}
-	.btn_rich{
-		margin-top: 50px;
-	}
-	.contacts_list_box{
-		height: 300px;
-		margin-top: 30px;
-	}
+			padding-top: 5px;
+		}
+		.headline_txt, .slider_control_direction_headline{
+			font-size: 24px;
+			line-height: 30px;
+		}
+		.about_the_brand_txt,{
+			margin-bottom: 20px;
+		}
+		.slider_control_direction_txt{
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		.btn_rich{
+			margin-top: 50px;
+		}
+		.contacts_list_box{
+			height: 300px;
+			margin-top: 30px;
+		}
 
 
 
