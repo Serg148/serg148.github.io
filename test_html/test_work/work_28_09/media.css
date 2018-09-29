@@ -181,6 +181,10 @@
 	.services_headline{
 		text-align: center;
 	}
+	.services_list{
+		margin-left: 30px;
+		padding: 0;
+	}
 	.service_options{
 		flex-flow: row wrap;
 		justify-content: center;
