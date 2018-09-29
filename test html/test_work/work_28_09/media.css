@@ -212,10 +212,7 @@
 		font-size: 28px;
 		text-align: center;
 		margin-top: 25px;
-	}
-
-
-	
+	}	
 
 	/* Custom, iPhone Retina */
 	@media only screen and (max-width : 320px) {
