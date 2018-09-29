@@ -70,7 +70,8 @@ body{
 	padding-left: 20px;
 	margin-right: 10px;
 }
-.nav_item-activ{
+
+.nav_item-activ, .nav_item:hover,  .nav_item:active{
 	border-bottom: 2px solid #ffbb1c;
 }
 
