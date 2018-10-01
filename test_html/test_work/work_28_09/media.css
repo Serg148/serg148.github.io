@@ -108,16 +108,11 @@
 	.headline_box__lable{
 		display: none;
 	}
-}
 
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	
 	#header{
 		height: 122px;
 		flex-flow: row wrap;
-		justify-content: center;
+		justify-content: space-between;
 
 	}
 	.logo_lable{
@@ -216,18 +211,30 @@
 		font-size: 28px;
 		text-align: center;
 		margin-top: 25px;
-	}	
-
-	/* Custom, iPhone Retina */
-	@media only screen and (max-width : 320px) {
-		.facts__item {
-			padding-top: 45px;
-			background: none;
-			border-bottom: 1px solid #e2e7e8;
-			border-top: 1px solid #e2e7e8;
-		}
-		.situation_img__lable{
-			padding: 0 2px;			
-		}
-
 	}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	#header{
+		justify-content: center;
+	}
+
+	.facts__item {
+		padding-top: 45px;
+		background: none;
+		border-bottom: 1px solid #e2e7e8;
+		border-top: 1px solid #e2e7e8;
+	}
+	.situation_img__lable{
+		padding: 0 2px;			
+	}
+
+}
