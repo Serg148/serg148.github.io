@@ -1,0 +1,19 @@
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.content_box{
+		flex-flow: column;
+		width: 100%;
+		min-width: 100%;
+	}
+	.responsive-box{
+		width: 100%
+	}
+	.header::before{
+		padding-top: 100%;
+	}
+}
+
+
+

@@ -1,0 +1,130 @@
+html, body{
+	min-height: 100%;
+}
+.wrap{
+	min-height: 100vh;
+	background-color: green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+	position: relative;
+	padding-bottom: 50px;
+	box-sizing: border-box;
+	background-color: blue;
+}
+.content_box{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow:row wrap;
+	width: 50%;
+	min-width: 600px;
+	background-color: green;
+}
+.responsive-box {
+	position: relative;
+	width: 50%; /* Произвольная ширина, которая требуется для блока */
+}
+
+.responsive-box::before {
+	content: "";
+	display: block;
+	padding-top: 100%; /* С помощью этого padding мы задаем высоту равную ширине блока */
+}
+.content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: orange;
+}
+.form_box .content{
+	background-color: red;
+}
+.header{
+	display: block;
+	width: 100%;
+	position: relative;
+}
+.header::before {
+	content: "";
+	display: block;
+	padding-top: 50%; /* С помощью этого padding мы задаем высоту равную ширине блока */
+}
+.header .content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: black;
+}
+.header .content{
+	overflow: hidden; 
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+video{
+	position: absolute;
+	z-index: 1;
+	max-width: none;
+}
+.header_headline{
+	font-size: 32px;
+	color: #fff;
+	z-index: 2;
+	padding: 10px;
+	border-radius: 25px;
+	background-color: rgba( 0, 0, 0, 0.7)
+}
+.content_txt{
+	font-size: 18px;
+	text-indent: 20px;
+	padding: 25% 10px;
+}
+.content_txt:first-letter {
+	color: red; 
+}
+
+.form{
+	background-color: red;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+.form_leble{
+	width: 270px;
+	margin: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.footer{
+	position: absolute;
+	bottom: 10px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
