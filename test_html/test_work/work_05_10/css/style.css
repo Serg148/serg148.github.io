@@ -121,6 +121,9 @@ video{
 	display: flex;
 	justify-content: space-between;
 }
+.form_input{
+	width: 70%;
+}
 .footer{
 	position: absolute;
 	bottom: 10px;
