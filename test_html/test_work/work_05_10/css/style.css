@@ -81,6 +81,8 @@ video{
 	position: absolute;
 	z-index: 1;
 	max-width: none;
+	height: 100%;
+
 }
 .header_headline{
 	font-size: 32px;
