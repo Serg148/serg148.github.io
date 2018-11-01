@@ -3,7 +3,6 @@ html, body{
 }
 .wrap{
 	min-height: 100vh;
-	background-color: green;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -25,18 +24,17 @@ html, body{
 	display: flex;
 	flex-flow:row wrap;
 	width: 50%;
-	min-width: 600px;
-	background-color: green;
+	min-width: 550px;
 }
 .responsive-box {
 	position: relative;
-	width: 50%; /* Произвольная ширина, которая требуется для блока */
+	width: 50%; 
 }
 
 .responsive-box::before {
 	content: "";
 	display: block;
-	padding-top: 100%; /* С помощью этого padding мы задаем высоту равную ширине блока */
+	padding-top: 100%; 
 }
 .content {
 	position: absolute;
@@ -57,7 +55,7 @@ html, body{
 .header::before {
 	content: "";
 	display: block;
-	padding-top: 50%; /* С помощью этого padding мы задаем высоту равную ширине блока */
+	padding-top: 50%; 
 }
 .header .content{
 	position: absolute;
@@ -65,7 +63,6 @@ html, body{
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background-color: black;
 }
 .header .content{
 	overflow: hidden; 
@@ -95,7 +92,7 @@ video{
 .content_txt{
 	font-size: 18px;
 	text-indent: 20px;
-	padding: 25% 10px;
+	padding: 25% 10px 0;
 }
 .content_txt:first-letter {
 	color: red; 
@@ -114,7 +111,7 @@ video{
 	height: 100%;
 }
 .form_leble{
-	width: 270px;
+	width: 245px;
 	margin: 10px;
 	display: -webkit-flex;
 	display: -moz-flex;
