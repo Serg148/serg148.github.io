@@ -68,7 +68,7 @@
 /*first_screen*/
 
 .first_screen{
-	height: 600px;
+	min-height: 600px;
 	background-color: #0f89f4;
 	padding-top: 95px;
 }
@@ -92,6 +92,8 @@
 	display: -o-flex;
 	display: flex;
 	flex-direction: column;
+	box-sizing: border-box;
+	padding-right: 90px;
 }
 
 .description_box__headline{
@@ -105,7 +107,7 @@
 	
 }
 .description_box__description_txt{
-	width: 510px;
+	max-width: 510px;
 	color: #d2e7fb;
 	font-family: "Open Sans";
 	font-size: 15px;
@@ -201,11 +203,9 @@
 	display: flex;
 	justify-content: flex-start;
 	width: 55%;
-	
 }
 
 .list_clients__item{
-	margin-left: 0px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -238,7 +238,7 @@
 
 .our_features__headline{
 	display: block;
-	width: 580px;
+	max-width: 580px;
 	color: #315479;
 	font-family: "Open Sans";
 	font-size: 32px;
@@ -274,7 +274,7 @@
 	margin-bottom: 20px;	
 }
 .article__txt{
-	width: 450px;
+	max-width: 450px;
 	color: #677482;
 	font-family: "Open Sans";
 	font-size: 20px;
@@ -376,7 +376,7 @@
 
 /*cta_section*/
 .cta_section{
-	height: 356px;
+	min-height: 356px;
 	background-color:#0f88f3;
 }
 .cta_section__container{
@@ -388,7 +388,7 @@
 	flex-flow: column nowrap;
 	align-items: center;
 	justify-content: center;
-	height: 100%;
+	min-height: 356px;
 }
 .cta_section__headline{
 	color: #ffffff;
@@ -397,7 +397,7 @@
 	font-weight: 400;
 	line-height:40px;
 	letter-spacing: -0.68px;
-	width: 750px;
+	max-width: 750px;
 	text-align: center;
 }
 .cta_section__description{
@@ -446,7 +446,7 @@
 	display: -o-flex;
 	display: flex;
 	align-items: center;
-	height: 212px;
+	min-height: 212px;
 }
 .info_box__column{
 	width: 270px;
