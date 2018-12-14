@@ -126,7 +126,19 @@
 		flex-flow: row wrap;
 		justify-content: center;
 		align-items: center;
-		height: 80px;
+		height: 65px;
+	}
+	.description_box__headline{
+		max-width: 320px;
+	}
+	.customer_unit__list_clients{
+		flex-flow: row wrap;
+	}
+	.list_clients__item{
+		margin: 10px;
+	}
+	.article__headline{
+		line-height: 30px;
 	}
 }
 /* Custom, iPhone Retina */
