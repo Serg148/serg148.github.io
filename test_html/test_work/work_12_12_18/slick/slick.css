@@ -16,6 +16,7 @@
     -ms-touch-action: pan-y;
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
+    border-right: 1px solid #1e91f7
 }
 
 .slick-list
@@ -100,7 +101,17 @@
 }
 .slick-initialized .slick-slide
 {
-    display: block;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-left: 1px solid #1e91f7;
+    border-bottom: 1px solid #1e91f7;
 }
 .slick-loading .slick-slide
 {

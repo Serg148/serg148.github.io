@@ -1,14 +1,10 @@
-.logo__fonts{
-	color: red;
+html, body{
+	font-family: "Open Sans"
 }
-
-
-
 .container{
 	max-width: 1259px;
 	margin: 0 auto;
-	padding: 0 20px;
-}
+	padding: 0 20px;}
 
 
 
@@ -29,7 +25,6 @@
 }
 .logo__fonts{
 	color: #ffffff;
-	font-family: "Open Sans";
 	font-size: 35px;
 	font-weight: 400;
 	line-height: 35px;
@@ -55,7 +50,6 @@
 
 .nav__link{
 	color: #d2e7fb;
-	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 35px;
@@ -103,7 +97,6 @@
 .description_box__headline{
 	width: 400px;
 	color: #ffffff;
-	font-family: "Open Sans";
 	font-size: 34px;
 	font-weight: 400;
 	line-height: 43px;
@@ -113,7 +106,6 @@
 .description_box__description_txt{
 	max-width: 510px;
 	color: #d2e7fb;
-	font-family: "Open Sans";
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 26px;
@@ -128,7 +120,6 @@
 	padding: 22px 45px; 
 	background-color: #9addfc;
 	color: #345477;
-	font-family: "Open Sans";
 	font-size: 17px;
 	font-weight: 600;
 	line-height: 17px;
@@ -141,7 +132,6 @@
 .description_box__link_watch_video{
 	display: block;
 	width: 230px;
-	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
 	line-height:18px;
@@ -190,7 +180,6 @@
 
 .customer_unit__label{
 	color: #a3d0fc;
-	font-family: "Open Sans";
 	font-size: 15px;
 	font-weight: 400;
 	line-height: 49.78px;
@@ -223,7 +212,24 @@
 	width: 100%;
 }
 
-
+/*carousel*/
+.carousel__container{
+	padding:0 0;
+}
+.carousel__link{
+	outline: none;
+	text-decoration: none;
+}
+.carousel__headline{	
+	text-align: center;
+	color: #315479;
+	font-size: 20px;
+	font-weight: 400;
+	line-height:27px;
+	text-transform: uppercase;
+	letter-spacing: -0.65px;
+	margin-top: 30px;
+}
 
 /*our_features*/
 .our_features{
@@ -244,7 +250,6 @@
 	display: block;
 	max-width: 580px;
 	color: #315479;
-	font-family: "Open Sans";
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 42px;
@@ -269,7 +274,6 @@
 	width: 50%;
 }
 .article__headline{
-	font-family: "Open Sans";
 	font-weight: 400;
 	color: #315479;
 	font-size:25px;
@@ -280,7 +284,6 @@
 .article__txt{
 	max-width: 450px;
 	color: #677482;
-	font-family: "Open Sans";
 	font-size: 20px;
 	letter-spacing: 0.7px;
 	line-height: 32px;
@@ -321,7 +324,6 @@
 	width: 100%;
 	text-align: center;
 	color: #315479;
-	font-family: "Open Sans";
 	font-size: 34px;
 	font-weight: 400;
 	line-height: 35px;
@@ -333,7 +335,6 @@
 }
 .reviews__txt{
 	color: #ffffff;
-	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -368,7 +369,6 @@
 }
 .reviews_company{
 	color: #677482;
-	font-family: "Open Sans";
 	font-size: 14px;
 	font-weight: 400;
 	letter-spacing: -0.28px;
@@ -396,7 +396,6 @@
 }
 .cta_section__headline{
 	color: #ffffff;
-	font-family: "Open Sans";
 	font-size: 32px;
 	font-weight: 400;
 	line-height:40px;
@@ -406,7 +405,6 @@
 }
 .cta_section__description{
 	color: #d2e7fb;
-	font-family: "Open Sans";
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 25px;
@@ -488,7 +486,7 @@
 .social_list__item{
 	margin: 10px;
 }
-.copyrating_box{
+.copyright_box{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -497,10 +495,9 @@
 	align-items: center;
 	height: 150px;
 }
-.copyrating__txt{
+.copyright__txt{
 	display: inline;
 	color: #323232;
-	font-family: "Open Sans";
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 22px;
