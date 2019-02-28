@@ -1,0 +1,244 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.container{
+		width: 95%;
+		max-width: 1200px;
+	}
+
+	.ArcadionBlock_inner{
+		height: 440px;
+		transform: scaleX(1);
+	}
+	.Arcadion_item, .Arcadion_item-active{
+		width: 11%;
+		transform: skewX(0);
+	}
+	.Arcadion_item:before, .Arcadion_item-active:before{
+		transform: skewX(0deg)
+		scaleX(1)
+		translateX(0);
+	}
+	.Arcadion_headline{
+		font-size: 36px;
+		width: 400px;
+		text-align: center;
+	}
+	#ArcadionItemId_1 .Arcadion_headline{
+		position: relative;	
+		left: 0px;
+	}
+	#ArcadionItemId_5 .Arcadion_headline{
+		position: relative;	
+		right: 0px;
+	}
+
+	/*Arcadion item active*/
+
+	.Arcadion_item-active{
+		width: 56%;
+	}
+	.Arcadion_item-active .Arcadion_ItemInner{
+		transform: skewX(0);
+		width: 346px;
+	}
+
+	.Arcadion_item-active .Arcadion_headline{
+		font-size: 36px;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	.Arcadion_item-active .Arcadion_ListHeadline{
+		font-size: 14px;
+		line-height: 14px;
+		margin: 10px 0;
+	}
+	.Arcadion_item-active .Arcadion_List{
+		width: 342px;
+	}
+	.Arcadion_item-active .Arcadion_ListItem{
+		font-size: 14px;
+		line-height: 14px;
+		padding: 6px 10px;
+	}
+	.Arcadion_item-active .Arcadion_ListItem:before{
+		font-size: 14px;
+	}
+
+	/*ArcadionBlock finish*/
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.container{
+		width: 95%;
+		max-width: 720px;
+	}
+
+
+	/*reviems start*/
+	.BlockReviews{
+		justify-content: space-around;
+	}
+	.BlockReviews_headline{
+		font-size: 36px;
+	}
+	.BlockReviews_description, .BlockReviews_bold{
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.BlockReviews_btn{
+		display: none;
+	}
+	.BlockOurClients_list{
+		display: none;
+	}
+	.BlockOurClients_list-medium{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;	
+		justify-content: flex-end;
+	}
+	.BlockOurClients_item{
+		height: 95px;
+	}
+	.BlockReviews_btnblok{
+		width: 100%;
+		text-align: center;
+		margin: 15px 0;
+	}
+	.BlockReviews_btn_medium{
+		display: inline-block;
+		width: 253px;
+	}
+}
+@media only screen and (max-width : 650px) {
+	.container{
+		width: 90%;
+		margin: 0 auto;
+		border: 2px dashed blue;
+	}
+	.ArcadionBlock_inner{
+		flex-flow: column nowrap;
+		width: 100%;
+		height: 560px;
+	}
+	.Arcadion_item, .Arcadion_item-active{
+		border: 1px solid red;
+		overflow: hidden;
+		position: relative;
+		box-sizing: border-box;
+		width: 100%;
+		height: 12%
+	}
+	.Arcadion_headline{
+		font-size: 24px;
+		transform: rotate(0)
+	}
+
+	/*Arcadion item active*/
+	.Arcadion_item-active{
+		height: 52%;
+	}
+	.Arcadion_item-active .Arcadion_ItemInner{
+		z-index: 5;
+		margin-left: 10px;
+	}
+	.Arcadion_item-active .Arcadion_headline{
+		width: 100%;
+		font-size: 24px;
+		max-width: 100%;
+		margin: 15px 0;
+	}
+	.Arcadion_item-active .Arcadion_ListHeadline{
+		font-size: 12px;
+		font-weight: 900;
+		line-height: 18px;
+	}
+	.Arcadion_item-active .Arcadion_List{
+		width: 100%;
+	}
+	.Arcadion_item-active .Arcadion_ListItem{
+		font-size: 12px;
+		line-height: 14px;
+		padding: 3px 10px;
+		margin: 0 5px;
+	}
+	/*ArcadionBlock finish*/
+
+	/*reviems start*/
+	.containerReviews{
+		flex-flow: column nowrap;
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+	.BlockReviews{
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	}
+	.BlockReviews_headline{
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.BlockReviews_description{
+		width: 262px;
+		font-family: "Roboto";
+		font-size: 12px;
+		font-weight: 400;
+		text-align: center;
+	}
+	.BlockReviews_bold{
+		font-size: 12px;
+		font-family: "Roboto";
+		font-weight: 400;
+		line-height: 14px;
+	}
+	.BlockOurClients{
+		width: 100%;
+	}
+	.BlockOurClients_list-medium{
+		justify-content: space-between;
+	}
+
+	/*reviems finish*/
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.container{
+		width: 280px;
+		margin: 0 auto;
+		padding: 0 5px;
+		border: 2px dashed blue;
+	}
+	/*Arcadion item active*/
+	.Arcadion_item-active{
+		height: 52%;
+	}
+	.Arcadion_item-active .Arcadion_ItemInner{
+		margin-left: 10px;
+	}
+
+	.Arcadion_item-active .Arcadion_List{
+		width: 100%;
+	}
+	/*ArcadionBlock finish*/
+
+}
