@@ -275,7 +275,6 @@ html, body {
   font-size: 20px;
 }
 
-/** Overlay */
 .overlay {
   display: flex;
   justify-content: center;
@@ -292,7 +291,6 @@ html, body {
   z-index: -5;
 }
 
-/** JS */
 .is-visible {
   z-index: 5;
   opacity: 1;
