@@ -1,18 +1,15 @@
- $('.SpecialOfferCarousel').slick({
-    infinite: true,
-    centerMode: false,
-    slidesToScroll: 1,
-    slidesToShow: 1,
-    arrows: true,
-    dots: false,
-    responsive: [
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        dots: true,
-        slidesToShow: 1
-      }
-    }
-    ]
+  document.getElementById('btn-modal').addEventListener('click', function() {
+  	document.getElementById('overlay').classList.add('is-visible');
+  	document.getElementById('modal').classList.add('is-visible');
   });
+
+  document.getElementById('close-btn').addEventListener('click', function() {
+  	document.getElementById('overlay').classList.remove('is-visible');
+  	document.getElementById('modal').classList.remove('is-visible');
+  });
+  document.getElementById('overlay').addEventListener('click', function() {
+  	document.getElementById('overlay').classList.remove('is-visible');
+  	document.getElementById('modal').classList.remove('is-visible');
+  });
+
+
