@@ -35,6 +35,13 @@
 		right: 0px;
 	}
 
+	#ArcadionItemId_1 .Arcadion_ItemInner {
+		padding-left: 0px;
+	}
+	#ArcadionItemId_5 .Arcadion_ItemInner {
+		padding-right: 0px;
+	}
+
 	/*Arcadion item active*/
 
 	.Arcadion_item-active{
@@ -69,39 +76,18 @@
 	}
 
 	/*ArcadionBlock finish*/
-
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	.container{
-		width: 95%;
-		max-width: 720px;
+	.BlockReviews{
+		justify-content: center;
 	}
 
-
-	/*reviems start*/
+	.BlockOurClients_list, .BlockReviews_btn{
+		display: none;
+	}
 	.BlockReviews{
-		justify-content: space-around;
+		width: 50%;
 	}
 	.BlockReviews_headline{
-		font-size: 36px;
-	}
-	.BlockReviews_description, .BlockReviews_bold{
-		font-size: 16px;
-		line-height: 20px;
-	}
-	.BlockReviews_btn{
-		display: none;
-	}
-	.BlockOurClients_list{
-		display: none;
+		margin-bottom: 40px;
 	}
 	.BlockOurClients_list-medium{
 		display: -webkit-flex;
@@ -109,10 +95,49 @@
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;	
-		justify-content: flex-end;
+		justify-content: center;
 	}
 	.BlockOurClients_item{
 		height: 95px;
+
+	}
+	.BlockOurClients{
+		width: 50%;
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		.BlockReviews_headline{
+			font-size: 36px;
+		}
+		.BlockReviews_description, .BlockReviews_bold{
+			font-size: 16px;
+			line-height: 20px;
+		}
+		
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		.container{
+			width: 95%;
+			max-width: 720px;
+		}
+
+
+		/*reviems start*/
+
+		.BlockReviews_headline{
+			font-size: 36px;
+		}
+		.BlockReviews_description, .BlockReviews_bold{
+			font-size: 16px;
+			line-height: 20px;
+		}
+		.BlockReviews_btn{
+			display: none;
+		}
+
 	}
 	.BlockReviews_btnblok{
 		width: 100%;
@@ -128,7 +153,6 @@
 	.container{
 		width: 90%;
 		margin: 0 auto;
-		border: 2px dashed blue;
 	}
 	.ArcadionBlock_inner{
 		flex-flow: column nowrap;
@@ -136,7 +160,6 @@
 		height: 560px;
 	}
 	.Arcadion_item, .Arcadion_item-active{
-		border: 1px solid red;
 		overflow: hidden;
 		position: relative;
 		box-sizing: border-box;
@@ -226,7 +249,6 @@
 		width: 280px;
 		margin: 0 auto;
 		padding: 0 5px;
-		border: 2px dashed blue;
 	}
 	/*Arcadion item active*/
 	.Arcadion_item-active{
