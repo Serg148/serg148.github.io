@@ -27,6 +27,7 @@ html, body {
 	width: 100%;
 	height: 680px;
 	transform: scaleX(1.1);
+	background-color: rgb(0, 0, 0);
 }
 .Arcadion_item, .Arcadion_item-active{
 	display: -webkit-flex;
@@ -41,6 +42,7 @@ html, body {
 	position: relative;
 	box-sizing: border-box;
 	width: 15%;
+	cursor: pointer;
 }
 
 .Arcadion_ItemBg{
@@ -117,7 +119,6 @@ html, body {
 
 .Arcadion_item-active{
 	width: 40%;
-	cursor: pointer;
 }
 .Arcadion_item-active .Arcadion_ItemBg{
 	background-color: rgba(255, 255, 255, 0.8);
