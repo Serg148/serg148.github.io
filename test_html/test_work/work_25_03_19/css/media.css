@@ -1,0 +1,232 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+@media only screen and (max-width : 600px) {
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	/*header mobile*/
+	.header__container{
+		flex-flow: row wrap;
+		padding: 5px;
+	}
+	.Nav{
+		order: 3;
+		flex-flow: column nowrap;
+		justify-content: flex-start;
+		height: 40px;
+		overflow: hidden;
+		border: 1px solid violet;
+		transition: all 1s;
+	}
+	.Nav:before{
+		content: 'меню';
+		color: red;
+		padding-top: 10px;
+	}
+	.Nav:hover{
+		height: 230px;
+		justify-content: space-between;
+	}
+	.Nav:hover:before{
+		opacity: 1;
+	}
+	.phoneBox__phone-hotline{
+		text-align: center;
+	}
+	.phoneBox__phone-hotline span{
+		display: none;
+	}
+
+	.languageBox{
+		display: none;
+	}
+	/*header mobile finish*/
+
+	/*slider top mobile*/
+	.SliderTop__container{
+		overflow: hidden;
+	}
+	.SliderTop__headline{
+		font-size: 38px;
+		line-height: 50px;
+		border: 0;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.SliderTop__headline-sm{
+		font-size: 30px;
+	}
+	.SliderTop__btn{
+		margin: 25px auto;
+	}
+	/*slider top finish*/
+
+	/*Filtr mobile*/
+	.Filtr__headline{
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		border-radius: 0;
+	}
+	.Filtr__form{
+		flex-flow: column nowrap;
+	}
+	.Filtr__form input{
+		margin: 5px;
+	}
+	#form_place,#form_date,#form_mens{
+		width: 300px;
+	}
+	/*Filtr mobile finish*/
+
+	.SectionHeadline{
+		text-align: center;
+	}
+
+	.Servise__item{
+		width: 50%;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+	.Servise__description{
+		width: 100%;
+	}
+
+	
+	.Benefits__videoBlock iframe{
+		height: 230px;
+	}
+	.Benefits__item{
+		width: 100%;
+	} 
+	.Benefits__description{
+		padding: 0 5px 0 20px;
+		width: 100%;
+	}
+	.Benefits__icon {
+		margin: 5px;
+	}
+
+	/*footer mobile*/
+
+	.footerBlok_headline{
+		text-align: center;
+	}
+	.footer__container{
+		flex-flow: column nowrap;
+		align-items: stretch;
+		padding: 20px 5px;
+		box-sizing: border-box;
+	}
+	.SiteMapBlock{
+		width: 100%;
+	}
+	.SiteMapBlock__list{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.SiteMapBlock__item{
+		width: 47%;
+	}
+	#footer .ContactBlock {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 100%;
+		flex-flow: column nowrap;
+		align-items: center;
+		order: 3;
+	}
+	#footer .phoneBox{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 100%;
+		justify-content: space-around;
+	}
+	.SocialLinkBlock{
+		width: 100%;
+		flex-flow: column nowrap;
+		align-items: center;
+		display: none;
+	}
+	.SocialLinkBlock__headline{
+		text-align: center;
+	}
+	.SocialLinkBlock__list{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: space-around
+		width: 320px; 
+	}
+	.SocialLinkBlock__item{
+		width: 150px;
+		text-align: center;
+	}
+	
+	.SubscriptionBlock{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: stretch;
+	}
+	.SubscriptionForm{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.SubscriptionForm input{
+		margin: 15px 0;
+	}
+	.SubscriptionForm__input{
+		width: 80%;
+	}
+	.CopyrightBlock__label{
+		text-align: center;
+	}
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.ToursCarousel__item, .HotelsCarousel__item {
+		justify-content: stretch;
+	}
+	
+}
