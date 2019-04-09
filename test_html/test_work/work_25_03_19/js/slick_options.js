@@ -36,7 +36,7 @@
       settings: {
         arrows: false,
         dots: true,
-        slidesToShow: 3
+        slidesToShow: 2
       }
     },{
       breakpoint: 768,
@@ -47,7 +47,7 @@
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 480,
       settings: {
         arrows: false,
         dots: true,
@@ -65,7 +65,29 @@
     dots: false,
     responsive: [
     {
-      breakpoint: 600,
+      breakpoint: 1300,
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow: 3
+      }
+    },{
+      breakpoint: 990,
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow: 2
+      }
+    },{
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        dots: true,
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
       settings: {
         arrows: false,
         dots: true,

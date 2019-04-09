@@ -1,19 +1,176 @@
 /*==========  Desktop First Method  ==========*/
+@media only screen and (max-width : 1400px) {
+	.container{
+		padding: 5px;
+	}
+	.Filtr__container{
+		padding: 0;
+	}
+	.container{
+		overflow: hidden;
+	}
+	.ToursCarousel__item, .HotelsCarousel__item {
+		justify-content: stretch;
+	}
+	
+	/*Filtr tablet*/
+	.Filtr__form{
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+	.Filtr__form input{
+		margin: 5px;		
+	}
+	#form_place {
+		width: 450px;
+	}
+	#form_mens {
+		width: 310px;
+	}
+	#form_submit{
+		width: 180px;
+	}
+	/*Filtr tablet finish*/
 
+	/*footer*/
+	.footer__container{
+		justify-content: space-between;
+	}
+	.SiteMapBlock {
+		width: 350px;
+	}
+	/*finish footer*/
+
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.container{
+		padding: 5px;
+	}
+	.Filtr__container{
+		padding: 0;
+	}
+	.SliderTop__container{
+		overflow: hidden;
+	}
+	.ToursCarousel__item, .HotelsCarousel__item {
+		justify-content: stretch;
+	}
 	
+	/*Filtr tablet*/
+	.Filtr__form{
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+	.Filtr__form input{
+		margin: 5px;		
+	}
+	#form_place {
+		width: 350px;
+	}
+	#form_mens {
+		width: 270px;
+	}
+	#form_submit{
+		width: 150px;
+	}
+	/*Filtr tablet finish*/
+
+	/*footer*/
+	.footer__container{
+		justify-content: space-between;
+	}
+	.SiteMapBlock {
+		width: 350px;
+	}
+	/*finish footer*/
+
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	/*Header tablet*/
+	.header__container{
+		padding: 10px;
+	}
+	.Nav{
+		width: 450px;
+	}
+	.phoneBox__phone-hotline span{
+		display: none;
+	}
+	.languageBox{
+		display: none;
+	}
+	/*Header tablet finish*/
+	/*SliderTop tablet*/
 	
+	.SliderTop__item{
+		align-items: center;
+		justify-content: center;
+	}
+	.SliderTop__headline{
+		font-size: 62px;
+	}
+	/*SliderTop tablet finish*/
+	/*Filtr tablet*/
+	.Filtr__form{
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	.Filtr__form input{
+		margin: 5px;		
+	}
+	#form_place {
+		width: 280px;
+	}
+	#form_submit{
+		width: 150px;
+	}
+	/*Filtr tablet finish*/
+	/*footer tablet*/
+	.footer__container{
+		justify-content: center;
+	}
+	.footerBlok_headline{
+		width: 100%;
+		text-align: center;
+	}
+	.SiteMapBlock {
+		width: 45%;
+	}
+	.SocialLinkBlock {
+		width: 50%;
+	}
+	.ContactBlock{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 100%;
+		order: 4;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+	#footer .phoneBox{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		width: 50%;
+		justify-content: space-around;
+	}
+
+	/*footer tablet finish*/
 }
 @media only screen and (max-width : 600px) {
 	
@@ -224,7 +381,7 @@
 	}
 }
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
+@media only screen and (max-width : 370px) {
 	.ToursCarousel__item, .HotelsCarousel__item {
 		justify-content: stretch;
 	}
