@@ -7,7 +7,7 @@
     dots: false,
     responsive: [
     {
-      breakpoint: 480,
+      breakpoint: 1440,
       settings: {
         arrows: false,
         dots: true,
@@ -25,7 +25,7 @@
     dots: false,
     responsive: [
     {
-      breakpoint: 1300,
+      breakpoint: 1440,
       settings: {
         arrows: false,
         dots: true,
@@ -65,7 +65,7 @@
     dots: false,
     responsive: [
     {
-      breakpoint: 1300,
+      breakpoint: 1440,
       settings: {
         arrows: false,
         dots: true,

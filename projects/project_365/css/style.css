@@ -329,8 +329,7 @@ label[for="form_mens"]:after{
 
 /*Tours*/
 .Tours{
-	padding-top: 100px;
-	padding-bottom: 150px;
+	padding: 100px 0;
 	background-color: #f5fbfd;
 }
 .ToursCarousel__item, .HotelsCarousel__item {
@@ -542,13 +541,13 @@ label[for="form_mens"]:after{
 	text-align: center;
 	margin-top: 30px;
 	width: 258px;
+	min-height: 75px;
 }
 /*Servise finish*/
 
 /*Benefits*/
 .Benefits{
-	padding-top: 100px;
-	padding-bottom: 150px;
+	padding: 100px 0;
 	background-color: #f5fbfd;
 }
 
@@ -588,8 +587,7 @@ label[for="form_mens"]:after{
 
 /*Hotels*/
 .Hotels{
-	padding-top: 100px;
-	padding-bottom: 150px;
+	padding: 100px 0;
 }
 #Hotels .card{
 	min-height: 480px;
@@ -666,6 +664,7 @@ label[for="form_mens"]:after{
 	font-weight: 400;
 	line-height: 20px;
 	margin: 30px 0;
+	text-align: center;
 }
 .SocialLinkBlock__link{
 	color: #e0e0e0;

@@ -12,6 +12,17 @@
 	.ToursCarousel__item, .HotelsCarousel__item {
 		justify-content: stretch;
 	}
+	#SliderTop .slick-dots {
+		bottom: 25px;    
+	}
+	.slick-dots li.slick-active button:before {
+		opacity: .75;
+		color: #ffbc21;
+	}
+	.slick-dots li button:before{
+		opacity: .9;
+		color: #60c659;
+	}
 	
 	/*Filtr tablet*/
 	.Filtr__form{
@@ -60,6 +71,9 @@
 	.Servise__description{
 		width: 100%;
 	}
+	.Benefits__icon{
+		margin-right: 10px;
+	}
 	
 	/*Filtr tablet*/
 	.Filtr__form{
@@ -93,11 +107,6 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
 	/*Header tablet*/
 	.header__container{
 		padding: 10px;
@@ -112,16 +121,6 @@
 		display: none;
 	}
 	/*Header tablet finish*/
-	/*SliderTop tablet*/
-	
-	.SliderTop__item{
-		align-items: center;
-		justify-content: center;
-	}
-	.SliderTop__headline{
-		font-size: 62px;
-	}
-	/*SliderTop tablet finish*/
 	/*Filtr tablet*/
 	.Filtr__form{
 		flex-flow: row wrap;
@@ -172,8 +171,26 @@
 		width: 50%;
 		justify-content: space-around;
 	}
-
 	/*footer tablet finish*/
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.Benefits__videoBlock iframe{
+		height: 430px;
+	}
+	/*SliderTop tablet*/
+	.SliderTop__item{
+		align-items: center;
+		justify-content: center;
+	}
+	.SliderTop__headline{
+		font-size: 62px;
+	}
+	/*SliderTop tablet finish*/
+	.footer__container{
+		width: 100%;
+	}
 }
 @media only screen and (max-width : 759px) {
 	.ToursCarousel__item, .HotelsCarousel__item {
@@ -185,6 +202,7 @@
 	#form_date, #form_submit{
 		width: 180px;
 	}
+
 	/*header mobile*/
 	.header__container{
 		flex-flow: row wrap;
@@ -196,21 +214,27 @@
 		justify-content: flex-start;
 		height: 40px;
 		overflow: hidden;
-		border: 1px solid violet;
 		transition: all 1s;
 		width: 100%;
 	}
 	.Nav:before{
 		content: 'меню';
-		color: red;
-		padding-top: 10px;
+		color: #60c659;
+		padding: 10px;
+		cursor: pointer;
+		border: 1px solid #60c659;
+		transition: all 1s;
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
 	}
 	.Nav:hover{
 		height: 230px;
 		justify-content: space-between;
 	}
 	.Nav:hover:before{
-		opacity: 1;
+		opacity: 0;
+		transition: all 1s;
 	}
 	.phoneBox__phone-hotline{
 		text-align: center;
@@ -223,79 +247,11 @@
 		display: none;
 	}
 	/*header mobile finish*/
-}
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	
-
-	/*slider top mobile*/
-	.SliderTop__container{
-		overflow: hidden;
-	}
-	.SliderTop__headline{
-		font-size: 38px;
-		line-height: 50px;
-		border: 0;
-		padding: 0;
-		margin: 0 auto;
-		text-align: center;
-	}
-	.SliderTop__headline-sm{
-		font-size: 30px;
-	}
-	.SliderTop__btn{
-		margin: 25px auto;
-	}
-	/*slider top finish*/
-
-	/*Filtr mobile*/
-	.Filtr__headline{
-		box-sizing: border-box;
-		width: 100%;
-		text-align: center;
-		border-radius: 0;
-	}
-	.Filtr__form{
-		flex-flow: column nowrap;
-	}
-	.Filtr__form input{
-		margin: 5px;
-	}
-	#form_place,#form_date,#form_mens{
-		width: 300px;
-	}
-	/*Filtr mobile finish*/
-
-	.SectionHeadline{
-		text-align: center;
-	}
-
-	.Servise__item{
-		width: 50%;
-		padding: 5px;
-		box-sizing: border-box;
-	}
-	.Servise__description{
-		width: 100%;
-	}
-
-	
-	.Benefits__videoBlock iframe{
-		height: 230px;
-	}
-	.Benefits__item{
-		width: 100%;
-	} 
-	.Benefits__description{
-		padding: 0 5px 0 20px;
-		width: 100%;
-	}
-	.Benefits__icon {
-		margin: 5px;
-	}
 
 	/*footer mobile*/
-
+	.footer__container{
+		width: 75%;
+	}
 	.footerBlok_headline{
 		text-align: center;
 	}
@@ -392,6 +348,84 @@
 	.CopyrightBlock__label{
 		text-align: center;
 	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#Benefits, #Hotels, #Tours{
+		padding: 50px 0;
+	}
+	
+	/*slider top mobile*/
+	.SliderTop__container{
+		overflow: hidden;
+	}
+	.SliderTop__headline{
+		font-size: 38px;
+		line-height: 50px;
+		border: 0;
+		padding: 0;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.SliderTop__headline-sm{
+		font-size: 30px;
+	}
+	.SliderTop__btn{
+		margin: 25px auto;
+	}
+	/*slider top finish*/
+
+	/*Filtr mobile*/
+	.Filtr__headline{
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		border-radius: 0;
+	}
+	.Filtr__form{
+		flex-flow: column nowrap;
+	}
+	.Filtr__form input{
+		margin: 5px;
+	}
+	#form_place,#form_date,#form_mens{
+		width: 300px;
+	}
+	/*Filtr mobile finish*/
+
+	.SectionHeadline{
+		text-align: center;
+	}
+
+	.Servise__item{
+		width: 50%;
+		padding: 5px;
+		box-sizing: border-box;
+	}
+	.Servise__description{
+		width: 100%;
+	}
+
+	
+	.Benefits__videoBlock iframe{
+		height: 230px;
+	}
+	.Benefits__item{
+		width: 100%;
+	} 
+	.Benefits__description{
+		padding: 0 5px 0 20px;
+		width: 100%;
+	}
+	.Benefits__icon {
+		margin: 5px;
+	}
+
+	.footer__container{
+		width: 100%;
+	}
+
+
 }
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 370px) {
