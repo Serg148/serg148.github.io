@@ -395,6 +395,9 @@
 
 	.SectionHeadline{
 		text-align: center;
+		font-size: 35px;
+		width: 310px;
+		margin: 50px auto;
 	}
 
 	.Servise__item{
