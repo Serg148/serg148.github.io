@@ -354,6 +354,7 @@
 	#Benefits, #Hotels, #Tours{
 		padding: 50px 0;
 	}
+
 	
 	/*slider top mobile*/
 	.SliderTop__container{
@@ -415,10 +416,11 @@
 	}
 	.Benefits__item{
 		width: 100%;
+		justify-content: space-between;
 	} 
 	.Benefits__description{
-		padding: 0 5px 0 20px;
-		width: 100%;
+		width: 320px;
+		padding: 0 5px 0 10px;
 	}
 	.Benefits__icon {
 		margin: 5px;
@@ -431,9 +433,16 @@
 
 }
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 370px) {
+@media only screen and (max-width : 375px) {
 	.ToursCarousel__item, .HotelsCarousel__item {
 		justify-content: stretch;
 	}
-	
+	.Benefits__description{
+		width: 270px;
+	}	
+}
+@media only screen and (max-width : 320px) {
+	.Benefits__description{
+		width: 225px;
+	}	
 }
