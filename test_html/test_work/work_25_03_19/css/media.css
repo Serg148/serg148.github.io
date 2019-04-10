@@ -57,6 +57,9 @@
 	.ToursCarousel__item, .HotelsCarousel__item {
 		justify-content: stretch;
 	}
+	.Servise__description{
+		width: 100%;
+	}
 	
 	/*Filtr tablet*/
 	.Filtr__form{
@@ -127,10 +130,10 @@
 	.Filtr__form input{
 		margin: 5px;		
 	}
-	#form_place {
+	#form_place, #form_mens{
 		width: 280px;
 	}
-	#form_submit{
+	#form_date, #form_submit{
 		width: 150px;
 	}
 	/*Filtr tablet finish*/
@@ -172,11 +175,16 @@
 
 	/*footer tablet finish*/
 }
-@media only screen and (max-width : 600px) {
-	
-}
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width : 759px) {
+	.ToursCarousel__item, .HotelsCarousel__item {
+		justify-content: center;
+	}
+	#form_place, #form_mens{
+		width: 280px;
+	}
+	#form_date, #form_submit{
+		width: 180px;
+	}
 	/*header mobile*/
 	.header__container{
 		flex-flow: row wrap;
@@ -190,6 +198,7 @@
 		overflow: hidden;
 		border: 1px solid violet;
 		transition: all 1s;
+		width: 100%;
 	}
 	.Nav:before{
 		content: 'меню';
@@ -214,6 +223,10 @@
 		display: none;
 	}
 	/*header mobile finish*/
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
 
 	/*slider top mobile*/
 	.SliderTop__container{
