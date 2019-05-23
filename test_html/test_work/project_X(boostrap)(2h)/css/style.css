@@ -42,7 +42,7 @@ button {
 	align-items: flex-start;
 	color: #4C4C4C;
 	flex-flow: column nowrap;
-	background-image: url(../img/timer-silhouette.png);
+	background-image: url(../img/timer-silhouette.svg);
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 50px;
