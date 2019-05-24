@@ -56,7 +56,7 @@ button {
 	align-items: flex-end;
 	color: #4C4C4C;
 	flex-flow: column nowrap;
-	background-image: url(../img/phone.png);
+	background-image: url(../img/phone-call.svg);
 	background-position: center left;
 	background-repeat: no-repeat;
 	padding-left: 50px;
