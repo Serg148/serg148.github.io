@@ -217,6 +217,7 @@ section{
 	width: 652px;
 	height: 422px;
 	margin-bottom: 20px;
+	overflow: hidden;
 }
 .OurServices__item-w1{
 	position: relative;

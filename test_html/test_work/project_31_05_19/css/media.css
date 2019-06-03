@@ -30,6 +30,70 @@
 	
 }
 @media only screen and (max-width : 320px) {
-
-	
+body{
+	font-family: 'Raleway';
+	position: relative;
+	width: 320px;
+	box-sizing: border-box;
+}
+section{
+	padding: 30px 0 ;
+}
+.AboutUs__item{
+	flex-flow: column nowrap;
+}
+.AboutUs__Description {
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.AboutUs__headline{
+	text-align: center;
+}
+.AboutUs__imgBlock::before{
+	display: none;
+}
+.FeaturedWorks__box {
+    flex-flow: column nowrap;
+}
+.FeaturedWorks__img{
+	width: 320px;
+}
+.OurServices__PreviewBlock {
+    padding: 20px 30px;
+}
+.SmallTeam__img{
+	width: 100%;
+}
+.owl-theme .owl-dots {
+    text-align: center;
+    margin: 0;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    margin: 0;
+}
+.WhatTheySays__ReviewBlock{
+	width: 100%;
+}
+.WhatTheySays__item{
+	flex-flow: column nowrap;
+}
+.OurPartners_link{
+	width: 50%;
+}
+.FormSendMassage label input{
+	height: 16px;
+}
+.FormSendMassage{
+	width: 100%;
+}
+.Contacts__MapImg{
+	width: 100%;
+}
+.Contacts__container{
+	flex-flow: column nowrap;
+}
+.CopyrightLabel{
+	text-align: center;
+}
 }

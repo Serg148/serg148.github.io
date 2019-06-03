@@ -6,7 +6,7 @@ $(document).ready(function(){
     items: 1
   });
   $("#WhatTheySays__Carousel").owlCarousel({
-    nav : true,
+    nav : false,
     dots : true,
     loop : true,
     items: 1
